@@ -1,4 +1,5 @@
 # Factorial of a given number
+# Factorial of a number: The product of all positive integers less than or equal to given number. Denoted by n!
 print "Enter your number: "
 n = gets.chomp.to_i
 i = 1
