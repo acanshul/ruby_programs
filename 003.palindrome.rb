@@ -27,5 +27,16 @@ print "Enter your string: "
   if rev == temp
     puts "Given string is a Palindrome!"
   else
-	puts "Given string is not a Palindrome!"
+    puts "Given string is not a Palindrome!"
   end
+  
+# Sentence Palindrome
+print "Enter your string: "
+str = gets
+temp = str.gsub!(" ","").strip
+rev = str.reverse.strip
+if rev.eql? temp
+  puts "Given sentence is a Palindrome!"
+else
+  puts "Given sentence is not a Palindrome!"
+end
